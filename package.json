@@ -2,14 +2,19 @@
 	"author": "Santiago Velasquez",
 	
 	  "name": "fcc-learn-npm-package-json",
+	  "version": "1.2.0",
+	"license": "MIT",
   
 	"description": "A simple npm package",
+	"keywords": [ "descriptive", "related", "words", "freecodecamp" ],
+
+
+	
+	
   
-  
-	  "dependencies": {
-  
-		  "express": "^4.18.2"
-  
+	"dependencies": {
+		"package-name": "version",
+		"express": "4.14.0"
 	  },
   
 	  "main": "server.js",
